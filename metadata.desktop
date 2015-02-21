@@ -1,0 +1,19 @@
+[Desktop Entry]
+Comment=
+Encoding=UTF-8
+Keywords=
+Name=stdout5
+Type=Service
+Icon=icon.png
+X-KDE-ParentApp=
+X-KDE-PluginInfo-Author=Robert
+X-KDE-PluginInfo-Category=Miscellaneous
+X-KDE-PluginInfo-Email=robspamm@fastmail.fm
+X-KDE-PluginInfo-License=GPL
+X-KDE-PluginInfo-Version=
+X-KDE-PluginInfo-Website=
+X-KDE-PluginInfo-Name=stdout5
+X-KDE-ServiceTypes=Plasma/Applet,Plasma/PopupApplet
+X-Plasma-API=declarativeappletscript
+X-Plasma-MainScript=ui/main.qml
+X-Plasma-RemoteLocation=

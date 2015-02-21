@@ -1,0 +1,6 @@
+#!/bin/bash
+# 2015 Robert
+
+zip -r stdout5.zip contents icon.png metadata.desktop
+plasmapkg2 -r stdout5
+plasmapkg2 -i stdout5.zip
