@@ -26,8 +26,11 @@ import org.kde.plasma.components 2.0 as PlasmaComponents
 import ApplicationLauncher 1.0
 
 Item {
-    Layout.minimumWidth: 200
-    Layout.minimumHeight: 300
+    Layout.minimumWidth: 20
+    Layout.minimumHeight: 20
+
+	Layout.maximumWidth: plasmoid.formFactor == PlasmaCore.Types.Planar ? units.gridUnit * 10 : Layout.minimumWidth
+    Layout.maximumHeight: plasmoid.formFactor == PlasmaCore.Types.Planar ? units.gridUnit * 10 : Layout.minimumHeight
 
     Application{
         id: launcher  
